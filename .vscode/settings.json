@@ -89,17 +89,17 @@
     "*.component.ts": "$(capture).component.html, $(capture).component.spec.ts, $(capture).component.css, $(capture).component.scss, $(capture).component.sass, $(capture).component.less"
   },
   "files.exclude": {
-    ".commitlint.config.js": true,
     ".eslintignore": true,
     ".eslintrc.js": true,
-    ".github":true,
+    ".github": true,
     ".husky": true,
     ".prettierignore": true,
     ".prettierrc.js": true,
     "automation": true,
+    "commitlint.config.js": true,
     "node_modules/": true,
-    "package.json": true,
-    "vscode": true
+    "vscode": true,
+    "yarn.lock": true
   },
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,

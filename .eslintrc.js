@@ -4,12 +4,7 @@ module.exports = {
     browser: true,
     es2021: true,
   },
-  extends: [
-    'eslint:recommended',
-    'plugin:react/recommended',
-    'plugin:prettier/recommended',
-    'prettier',
-  ],
+  extends: ['eslint:recommended', 'plugin:prettier/recommended', 'prettier'],
   parserOptions: {
     ecmaVersion: 'latest',
     sourceType: 'module',
@@ -17,7 +12,7 @@ module.exports = {
       jsx: true,
     },
   },
-  plugins: ['prettier', 'react'],
+  plugins: ['prettier'],
   rules: {
     'prettier/prettier': 'error',
 
@@ -95,10 +90,5 @@ module.exports = {
     'spaced-comment': ['error', 'always'],
     'vars-on-top': 'error',
     yoda: 'error',
-  },
-  settings: {
-    react: {
-      version: 'detect',
-    },
   },
 };
