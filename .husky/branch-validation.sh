@@ -6,7 +6,7 @@ valid_branch_regex='^main|develop|((feat|fix|docs|style|refactor|perf|test|build
 message="\n
 ------------- \n
 There is something wrong with your branch name.\n
-Branch names in this project must adhere to this contract: feat|fix|docs|style|refactor|perf|test|build|ci|build|revert / subject.\n
+Branch names in this project must adhere to this contract: main|develop|feat|fix|docs|style|refactor|perf|test|build|ci|build|revert / subject.\n
 Your commit will be rejected.\n
 You should rename your branch to a valid name and try again.\n
 ------------- \n
@@ -14,7 +14,7 @@ You should rename your branch to a valid name and try again.\n
 
 if [[ ! $local_branch_name =~ $valid_branch_regex ]]; then
     echo "$message"
-    exit 1
+    exit 2
 fi
 
 exit 0

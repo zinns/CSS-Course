@@ -2,8 +2,7 @@
 if [ ! -d "node_modules" ]
 then
 	yarn
-	npm run validate
-else
-	npm run validate
 fi
+
+npm run validate
 npm run branch-name
