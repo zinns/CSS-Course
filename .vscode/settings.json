@@ -88,19 +88,7 @@
     "requirements.txt": ".editorconfig, .flake8, .isort.cfg, .python-version, requirements*.in, requirements*.pip, requirements*.txt, tox.ini",
     "*.component.ts": "$(capture).component.html, $(capture).component.spec.ts, $(capture).component.css, $(capture).component.scss, $(capture).component.sass, $(capture).component.less"
   },
-  "files.exclude": {
-    ".eslintignore": true,
-    ".eslintrc.js": true,
-    ".github": true,
-    ".husky": true,
-    ".prettierignore": true,
-    ".prettierrc.js": true,
-    "automation": true,
-    "commitlint.config.js": true,
-    "node_modules/": true,
-    "vscode": true,
-    "yarn.lock": true
-  },
+  "files.exclude": {},
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
@@ -178,5 +166,6 @@
   "workbench.colorCustomizations": {
     "editor.lineHighlightBackground": "#1073cf2d",
     "editor.lineHighlightBorder": "#9fced11f"
-  }
+  },
+  "github-actions.workflows.pinned.workflows": []
 }

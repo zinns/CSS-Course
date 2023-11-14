@@ -1,39 +1,50 @@
 {
-  "name": "training-template",
-  "version": "0.0.1",
-  "description": "",
-  "scripts": {
-    "branch-name": "chmod 755 ./.husky/branch-validation.sh && sh ./.husky/branch-validation.sh",
-    "format": "prettier --write .",
-    "lint": "eslint .",
-    "postinstall": "husky install",
-    "prepare": "husky install",
-    "validate": "prettier --check . && eslint ."
-  },
-  "devDependencies": {
-    "@commitlint/cli": "^18.2.0",
-    "@commitlint/config-conventional": "^18.1.0",
-    "eslint": "^8.52.0",
-    "eslint-config-prettier": "^9.0.0",
-    "eslint-plugin-hooks": "^0.4.3",
-    "eslint-plugin-prettier": "^5.0.1",
-    "husky": "^8.0.3",
-    "prettier": "^3.0.3"
-  },
-  "dependencies": {},
+  "author": "zinns.io",
   "babel": {
     "presets": [
       "@babel/preset-env"
     ]
   },
+  "bugs": {
+    "url": "https://github.com/zinns/training-template/issues"
+  },
+  "description": "",
+  "devDependencies": {
+    "@commitlint/cli": "^18.4.1",
+    "@commitlint/config-conventional": "^18.4.0",
+    "eslint": "^8.53.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-hooks": "^0.4.3",
+    "eslint-plugin-prettier": "^5.0.1",
+    "husky": "^8.0.3",
+    "postcss": "^8.4.31",
+    "prettier": "^3.1.0",
+    "stylelint": "^15.3.0",
+    "stylelint-config-prettier": "^9.0.5",
+    "stylelint-config-standard-scss": "^7.0.1",
+    "stylelint-order": "^6.0.3"
+  },
+  "engines": {
+    "npm": ">= 10",
+    "yarn": ">= 1.19"
+  },
+  "homepage": "https://github.com/zinns/training-template#readme",
+  "license": "ISC",
+  "name": "training-template",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zinns/training-template.git"
   },
-  "author": "zinns.io",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/zinns/training-template/issues"
+  "scripts": {
+    "branch-name": "chmod 755 ./.husky/branch-validation.sh && sh ./.husky/branch-validation.sh",
+    "format": "npx prettier --write .",
+    "lint": "npx eslint .",
+    "postinstall": "npx husky install",
+    "prepare": "npx husky install",
+    "style": "npx stylelint **/*.css --fix",
+    "validate": "npx prettier --check . && npx eslint **/*.{js,ts,jsx,tsx,mjs} --no-error-on-unmatched-pattern && npx stylelint **/*.{css,scss} --aei"
   },
-  "homepage": "https://github.com/zinns/training-template#readme"
+  "version": "0.0.1",
+  "packageManager": "yarn@4.0.2",
+  "dependencies": {}
 }
