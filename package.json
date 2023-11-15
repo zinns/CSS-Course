@@ -36,15 +36,13 @@
     "url": "git+https://github.com/zinns/training-template.git"
   },
   "scripts": {
-    "branch-name": "chmod 755 ./.husky/branch-validation.sh && sh ./.husky/branch-validation.sh",
     "format": "npx prettier --write .",
-    "lint": "npx eslint .",
     "postinstall": "npx husky install",
     "prepare": "npx husky install",
     "style": "npx stylelint **/*.css --fix",
     "validate": "npx prettier --check . && npx eslint **/*.{js,ts,jsx,tsx,mjs} --no-error-on-unmatched-pattern && npx stylelint **/*.{css,scss} --aei"
   },
-  "version": "0.0.1",
+  "version": "0.1.0",
   "packageManager": "yarn@4.0.2",
   "dependencies": {}
 }

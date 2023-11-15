@@ -1,8 +1,31 @@
 #!/usr/bin/env sh
 if [ ! -d "node_modules" ]
 then
-	yarn
+  yarn
+fi
+
+local_branch_name="$(git branch --show-current)"
+valid_branch_regex="^(build|ci|docs|feat|fix|perf|refactor|revert|style|test)\/[a-zA-Z\-]+"
+not_valid_branch_regex="^(develop|main)$"
+
+if [[ $local_branch_name =~ $not_valid_branch_regex ]]; then
+    echo "⚠︎ ERROR ⚠︎"
+    echo ""
+    echo "You are trying to commit in a branch where you are not allowed to commit"
+    echo "Please make this commit in a valid branch"
+    exit 1
+fi
+
+if [[ ! $local_branch_name =~ $valid_branch_regex ]]; then
+    echo "⚠︎ ERROR ⚠︎"
+    echo ""
+    echo "There is something wrong with your branch name."
+    echo "Branch names in this project must adhere to this contract: build|ci|docs|feat|fix|perf|refactor|revert|style|test / subject."
+    echo "Your commit will be rejected."
+    echo "You should rename your branch to a valid name and try again."
+    exit 1
 fi
 
 npm run validate
-npm run branch-name
+
+exit 0
