@@ -1,8 +1,10 @@
 ## Pull Request Title
 
-Brief description about what this PR does and [which ISSUE-### is closed](https://link-to-your-ticket)
+<!-- Brief description about what this PR does and which ISSUE (#issueNumber -> #100) is closed -->
 
 ## Implementation
+
+<!-- Explanation of what was done in this PR, main changes, refactors, renames, etc -->
 
 ## Screenshots
 
@@ -11,13 +13,9 @@ Brief description about what this PR does and [which ISSUE-### is closed](https:
 | desktop |        |       |
 | mobile  |        |       |
 
-**Steps to reproduce:**
+## Steps to reproduce
 
 1. Go to '...'
 2. Click on '....'
 3. Scroll down to '....'
 4. See error
-
-**Expected behavior**
-
-A clear and concise description of what you expected to happen.
