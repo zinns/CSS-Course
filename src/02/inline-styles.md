@@ -28,11 +28,11 @@
 
 1. Crear las etiquetas de HTML de estructura básica dentro del archivo `index.html`.
 
-2. Selecciona 10 colores diferentes y agrégalos al archivo.
+2. Seleccionar 10 colores diferentes y agregar al archivo.
 
-3. En otra rama inserta 5 etiquetas de contenedores diferentes y modifica su color de fondo y su altura y ancho.
+3. En otra rama insertar 5 etiquetas de contenedores diferentes y modificar su color de fondo y su altura y ancho.
 
-4. En otra rama escribe 5 versos de cualquier canción/libro/poema y modifica el tamaño de fuente y el estilo de la fuente.
+4. En otra rama escribir 5 versos de cualquier canción/libro/poema y modificar el tamaño de fuente y el estilo de la fuente.
 
 # Recordatorios
 
