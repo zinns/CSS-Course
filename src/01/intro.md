@@ -20,6 +20,8 @@
 
 - Branch names must always comply with conventions.
 
+- Remember always use Semantic HTML.
+
 ---
 
 # Instrucciones
@@ -37,3 +39,5 @@
 ## Recordatorios
 
 - Nombre de las ramas siempre debe cumplir con las convenciones.
+
+- Siempre se debe usar HTML semántico.
