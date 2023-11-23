@@ -111,5 +111,3 @@ echo " Your branch name matches with our branch convention."
 echo "$COLOR_OFF"
 
 npm run validate
-
-exit 0
