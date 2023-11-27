@@ -18,7 +18,7 @@
 
 6. Add 3 countries and modify the font size, font style and the font family using link, import and local strategies.
 
-# Reminders
+## Reminders
 
 - Remember using every unit/value of each property.
 
@@ -38,9 +38,9 @@
 
 5. En otra rama buscar 3 tipografías diferentes y descargar solo una.
 
-6. Agregar 3 paises y modificar el tamaño, el estilo y la familia utilizando estrategia de link, import y local.
+6. Agregar 3 paises y modificar el tamaño, el estilo y la familia utilizando estrategia de enlace, importación y local.
 
-# Recordatorios
+## Recordatorios
 
 - Usar cada unidad/valor de cada propiedad.
 
