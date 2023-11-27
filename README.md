@@ -6,20 +6,20 @@
 
 ---
 
-| Unit / Unidad | Topic / Tema | Completed |
-| :-----------: | :----------: | :-------: |
-|               |              |           |
-|               |              |           |
-|               |              |           |
-|               |              |           |
-|               |              |           |
-|               |              |           |
-|               |              |           |
-|               |              |           |
-|               |              |           |
-|               |              |           |
-|               |              |           |
-|               |              |           |
+| Unit / Unidad | Topic / Tema | Completed / Completado |
+| :-----------: | :----------: | :--------------------: |
+|               |              |                        |
+|               |              |                        |
+|               |              |                        |
+|               |              |                        |
+|               |              |                        |
+|               |              |                        |
+|               |              |                        |
+|               |              |                        |
+|               |              |                        |
+|               |              |                        |
+|               |              |                        |
+|               |              |                        |
 
 ---
 
@@ -55,7 +55,7 @@ Este repositorio contiene carpetas relacionadas con los temas que forman parte d
 
 - Existe una rama llamada `develop-padawans`. Siempre se debe de empezar a trabajar desde esta rama.
 
-- Nombre de las ramas siempre debe seguir las convenciones.
+- Nombre de las ramas siempre deben seguir las convenciones.
 
 - Commits siempre deben de ser informativos.
 
