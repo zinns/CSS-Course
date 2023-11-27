@@ -14,7 +14,7 @@
 
 4. In other branch write a small letter and modify its external styles.
 
-# Reminders
+## Reminders
 
 - Remember using every unit/value of each property.
 
@@ -28,11 +28,11 @@
 
 2. Escribir una rutina y modificar sus estilos en linea.
 
-3. En otra rama escribir un pequeño poeam y modificar sus estilos de cabecera.
+3. En otra rama escribir un pequeño poema y modificar sus estilos de cabecera.
 
 4. En otra rama escribir una pequeña carta y modificar sus estilos externos.
 
-# Recordatorios
+## Recordatorios
 
 - Usar cada unidad/valor de cada propiedad.
 
