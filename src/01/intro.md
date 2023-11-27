@@ -38,6 +38,6 @@
 
 ## Recordatorios
 
-- Nombre de las ramas siempre debe cumplir con las convenciones.
+- Nombre de las ramas siempre deben cumplir con las convenciones.
 
 - Siempre se debe usar HTML semántico.
