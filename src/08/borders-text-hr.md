@@ -32,18 +32,18 @@
 
 1. Prototipar el siguiente ejemplo.
 
-> ejemplo
-> ![borders](assets/borders.png)
+   > ejemplo
+   > ![borders](assets/borders.png)
 
 2. En otra rama prototipar el siguiente ejemplo.
 
-> example
-> ![text_align](assets/text_align.png)
+   > example
+   > ![text_align](assets/text_align.png)
 
 3. En otra rama prototipar el siguiente ejemplo.
 
-> example
-> ![hr](assets/hr.png)
+   > example
+   > ![hr](assets/hr.png)
 
 ## Recordatorios
 
