@@ -17,8 +17,18 @@
    > ![positions-2](assets/positions-2.png)
 
 3. In other branch prototype the next example.
+
    > example
    > ![positions-3](assets/positions-3.png)
+
+4. In other branch prototype the next example.
+
+   > example
+   > ![positions-4](assets/positions-4.gif)
+
+5. In other branch prototype the next example.
+   > example
+   > ![positions-5](assets/positions-5.gif)
 
 ## Reminders
 
@@ -41,8 +51,18 @@
    > ![positions-2](assets/positions-2.png)
 
 3. En otra rama prototipar el siguiente ejemplo.
+
    > example
    > ![positions-3](assets/positions-3.png)
+
+4. En otra rama prototipar el siguiente ejemplo.
+
+   > example
+   > ![positions-4](assets/positions-4.gif)
+
+5. En otra rama prototipar el siguiente ejemplo.
+   > example
+   > ![positions-5](assets/positions-5.gif)
 
 # Recordatorios
 
