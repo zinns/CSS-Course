@@ -6,7 +6,7 @@
 
 # Instructions
 
-1. Prototype the next example..
+1. Prototype the next example.
 
    > example
    > ![example-1](assets/example-1.gif)
@@ -26,7 +26,7 @@
 1. Prototipar el siguiente ejemplo.
 
    > ejemplo
-   > ![example-1](assets/example-1.gif)
+   > ![ejemplo-1](assets/example-1.gif)
 
 2. En otra rama prototipar con diseño libre otro ejemplo.
 
