@@ -6,7 +6,7 @@
 
 # Instructions
 
-1. Prototype the next example..
+1. Prototype the next example.
 
    > example
    > ![positions-1](assets/positions-1.png)
@@ -47,21 +47,21 @@
 
 2. En otra rama prototipar el siguiente ejemplo.
 
-   > example
+   > ejemplo
    > ![positions-2](assets/positions-2.png)
 
 3. En otra rama prototipar el siguiente ejemplo.
 
-   > example
+   > ejemplo
    > ![positions-3](assets/positions-3.png)
 
 4. En otra rama prototipar el siguiente ejemplo.
 
-   > example
+   > ejemplo
    > ![positions-4](assets/positions-4.gif)
 
 5. En otra rama prototipar el siguiente ejemplo.
-   > example
+   > ejemplo
    > ![positions-5](assets/positions-5.gif)
 
 # Recordatorios
