@@ -6,7 +6,7 @@
 
 # Instructions
 
-1. Prototype the next example..
+1. Prototype the next example.
 
    > example
    > ![transforms-1](assets/transforms-1.png)
@@ -33,16 +33,16 @@
 1. Prototipar el siguiente ejemplo.
 
    > ejemplo
-   > ![transforms-1](assets/transforms-1.png)
+   > ![transformaciones-1](assets/transforms-1.png)
 
 2. En otra rama prototipar el siguiente ejemplo.
 
    > ejemplo
-   > ![transforms-2](assets/transforms-2.png)
+   > ![transformaciones-2](assets/transforms-2.png)
 
 3. En otra rama prototipar el siguiente ejemplo.
    > ejemplo
-   > ![transforms-3](assets/transforms-3.png)
+   > ![transformaciones-3](assets/transforms-3.png)
 
 # Recordatorios
 
