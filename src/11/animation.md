@@ -6,7 +6,7 @@
 
 # Instructions
 
-1. Prototype the next example..
+1. Prototype the next example.
 
    > example
    > ![animation-1](assets/animation-1.gif)
@@ -44,27 +44,27 @@
 1. Prototipar el siguiente ejemplo.
 
    > ejemplo
-   > ![animation-1](assets/animation-1.gif)
+   > ![animación-1](assets/animation-1.gif)
 
 2. En otra rama prototipar el siguiente ejemplo.
 
-   > example
-   > ![animation-2](assets/animation-2.gif)
+   > ejemplo
+   > ![animación-2](assets/animation-2.gif)
 
 3. En otra rama prototipar el siguiente ejemplo.
 
-   > example
-   > ![animation-3](assets/animation-3.gif)
+   > ejemplo
+   > ![animación-3](assets/animation-3.gif)
 
 4. En otra rama prototipar el siguiente ejemplo.
 
-   > example
-   > ![animation-4](assets/animation-4.gif)
+   > ejemplo
+   > ![animación-4](assets/animation-4.gif)
 
 5. En otra rama prototipar el siguiente ejemplo.
 
-   > example
-   > ![animation-5](assets/animation-5.gif)
+   > ejemplo
+   > ![animación-5](assets/animation-5.gif)
 
 # Recordatorios
 
