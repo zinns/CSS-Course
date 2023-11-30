@@ -6,7 +6,7 @@
 
 # Instructions
 
-1. Prototype the next example..
+1. Prototype the next example.
 
    > example
    > ![images-1](assets/images-1.png)
@@ -54,22 +54,22 @@
 1. Prototipar el siguiente ejemplo.
 
    > ejemplo
-   > ![images-1](assets/images-1.png)
+   > ![imagenes-1](assets/images-1.png)
 
 2. En otra rama prototipar el siguiente ejemplo.
 
    > ejemplo
-   > ![images-2](assets/images-2.png)
+   > ![imagenes-2](assets/images-2.png)
 
 3. En otra rama prototipar el siguiente ejemplo.
 
    > ejemplo
-   > ![images-3](assets/images-3.png)
+   > ![imagenes-3](assets/images-3.png)
 
 4. En otra rama prototipar el siguiente ejemplo.
 
    > ejemplo
-   > ![images-4](assets/images-4.png)
+   > ![imagenes-4](assets/images-4.png)
 
 5. En otra rama prototipar el siguiente ejemplo.
 
