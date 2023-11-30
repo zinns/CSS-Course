@@ -37,11 +37,11 @@
 
 2. En otra rama prototipar el siguiente ejemplo.
 
-   > example
+   > ejemplo
    > ![transforms-2](assets/transforms-2.png)
 
 3. En otra rama prototipar el siguiente ejemplo.
-   > example
+   > ejemplo
    > ![transforms-3](assets/transforms-3.png)
 
 # Recordatorios
