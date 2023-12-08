@@ -33,10 +33,14 @@
 
 1. Prototipar la siguiente página web usando Tailwind y siguiendo el proceso de desarrollo ideal.
 
+2. El sitio web debe de ser responsivo.
+
+3. Imágenes, íconos y fuentes deben de ser similares.
+
    > Escritorio
    > ![escritorio](assets/desktop.png)
 
-   > Tablets
+   > Tableta
    > ![tableta](assets/tablet.png)
 
    > Móvil
