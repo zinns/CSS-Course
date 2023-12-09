@@ -157,7 +157,7 @@
   "terminal.integrated.scrollback": 100000000,
   "typescript.updateImportsOnFileMove.enabled": "always",
   "typescript.validate.enable": true,
-  "window.zoomLevel": 1,
+  "window.zoomLevel": 0,
   "workbench.colorTheme": "One Dark Pro Darker",
   "workbench.editor.highlightModifiedTabs": true,
   "workbench.iconTheme": "symbols",

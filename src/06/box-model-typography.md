@@ -6,7 +6,7 @@
 
 # Instructions
 
-1. Write summary of what was understood about box content model and modify these properties with different values.
+1. Write summary of what was understood about box model and modify these properties with different values.
 
 2. In another branch, look for a paragraph and customize it using different font weights and styles.
 
@@ -20,7 +20,7 @@
 
 # Instrucciones
 
-1. Escribir un resumen de lo entendido sobre el box content model y modificar estas propiedades con diferentes valores.
+1. Escribir un resumen de lo entendido sobre el modelo de caja y modificar estas propiedades con diferentes valores.
 
 2. En otra rama buscar un párrafo y modificarlo usando difentes pesos y estilos.
 
