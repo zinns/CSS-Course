@@ -22,7 +22,7 @@
 
 1. Escribir un resumen de lo entendido sobre el modelo de caja y modificar estas propiedades con diferentes valores.
 
-2. En otra rama buscar un párrafo y modificarlo usando difentes pesos y estilos.
+2. En otra rama buscar un párrafo y modificarlo usando diferentes pesos y estilos.
 
 # Recordatorios
 
