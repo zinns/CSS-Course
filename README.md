@@ -6,20 +6,25 @@
 
 ---
 
-| Unit / Unidad | Topic / Tema | Completed / Completado |
-| :-----------: | :----------: | :--------------------: |
-|               |              |                        |
-|               |              |                        |
-|               |              |                        |
-|               |              |                        |
-|               |              |                        |
-|               |              |                        |
-|               |              |                        |
-|               |              |                        |
-|               |              |                        |
-|               |              |                        |
-|               |              |                        |
-|               |              |                        |
+<!-- prettier-ignore -->
+|             Unit / Unidad              |                                   Topic / Tema                                    | Completed / Completado |
+| :------------------------------------: | :-------------------------------------------------------------------------------: | :--------------------: |
+|        [01](./src/01/intro.md)         |                  [Introduction/Introducción](./src/01/intro.md)                   |                        |
+|    [02](./src/02/inline-styles.md)     |            [Inline Styles/Estilos en Línea](./src/02/inline-styles.md)            |                        |
+|     [03](./src/03/head-styles.md)      |            [Head Styles/Estilos de cabecera](./src/03/head-styles.md)             |                        |
+|   [04](./src/04/external-styles.md)    |          [External Styles/Estilos Externos](./sr4/03/external-styles.md)          |                        |
+|      [05](./src/05/selectors.md)       |                   [Selectors/Selectores](./src/05/selectors.md)                   |                        |
+| [06](./src/06/box-model-typography.md) | [Box Model-Typography/Model de Caja-Tipografía](./src/06/box-model-typography.md) |                        |
+|       [07](./src/07/display.md)        |                         [Display](./src/07/display.md.md)                         |                        |
+|   [08](./src/08/borders-text-hr.md)    |         [Borders-Text-Hr/Bordes-Texto-Hr](./src/08/borders-text-hr.md.md)         |                        |
+|       [09](./src/09/position.md)       |                   [Position/Posición](./src/09/position.md.md)                    |                        |
+|      [10](./src/10/transforms.md)      |             [Transforms/Transformaciones](./src/10/transforms.md.md)              |                        |
+|       [12](./src/12/overflow.md)        |                [Overflow/Desbordamiento](./src/12/overflow.md.md)                   |                        |
+|        [13](./src/13/images.md)        |                     [Images/Imágenes](./src/13/images.md.md)                      |                        |
+|    [14](./src/14/media-queries.md)     |                   [Media Queries](./src/14/media-queries.md.md)                   |                        |
+|       [15](./src/15/pseudos.md)        |                         [Pseudos](./src/15/pseudos.md.md)                         |                        |
+|      [16](./src/16/bootstrap.md)       |                       [Bootstrap](./src/16/bootstrap.md.md)                       |                        |
+|       [17](./src/17/tailwind.md)       |                        [Tailwind](./src/17/tailwind.md.md)                        |                        |
 
 ---
 
