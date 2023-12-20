@@ -37,7 +37,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ vars.GH_TOKEN }}
         with:
-          version-type: ${{inputs.versionType}}
           tag-prefix: 'v'
+          target-branch: 'master'
+          version-type: ${{inputs.versionType}}
       - name: 'cat package.json'
         run: cat ./package.json
