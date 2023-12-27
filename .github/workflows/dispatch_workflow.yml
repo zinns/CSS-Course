@@ -9,10 +9,10 @@ on:
         default: 'PATCH'
         type: choice
         options:
-          - MAJOR
-          - MINOR
-          - PATCH
-          - RELEASE
+          - 'MAJOR'
+          - 'MINOR'
+          - 'PATCH'
+          - 'RELEASE'
 
 jobs:
   bump-version:
@@ -37,8 +37,12 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ vars.GH_TOKEN }}
         with:
+          minor-wording: 'MINOR'
+          major-wording: 'MAJOR'
+          patch-wording: 'PATCH'
+          rc-wording: 'RELEASE'
           tag-prefix: 'v'
-          target-branch: 'master'
+          target-branch: 'develop'
           version-type: ${{inputs.versionType}}
       - name: 'cat package.json'
         run: cat ./package.json
