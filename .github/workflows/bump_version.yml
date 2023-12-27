@@ -32,5 +32,6 @@ jobs:
           patch-wording: 'PATCH'
           rc-wording: 'RELEASE'
           tag-prefix: 'v'
+          check-last-commit-only: true
       - name: 'cat package.json'
         run: cat ./package.json

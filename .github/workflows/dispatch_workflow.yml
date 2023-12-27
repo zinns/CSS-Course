@@ -44,5 +44,6 @@ jobs:
           tag-prefix: 'v'
           target-branch: 'develop'
           version-type: '${{inputs.versionType}}'
+          check-last-commit-only: true
       - name: 'cat package.json'
         run: cat ./package.json
