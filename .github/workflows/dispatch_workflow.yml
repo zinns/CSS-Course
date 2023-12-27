@@ -6,13 +6,13 @@ on:
       versionType:
         description: 'Version Type'
         required: true
-        default: 'PATCH'
+        default: PATCH
         type: choice
         options:
-          - 'MAJOR'
-          - 'MINOR'
-          - 'PATCH'
-          - 'RELEASE'
+          - MAJOR
+          - MINOR
+          - PATCH
+          - RELEASE
 
 jobs:
   bump-version:
@@ -43,6 +43,6 @@ jobs:
           rc-wording: 'RELEASE'
           tag-prefix: 'v'
           target-branch: 'develop'
-          version-type: ${{inputs.versionType}}
+          version-type: '${{inputs.versionType}}'
       - name: 'cat package.json'
         run: cat ./package.json
