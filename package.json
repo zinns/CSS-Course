@@ -42,7 +42,7 @@
     "style": "npx stylelint **/*.css --fix",
     "validate": "npx prettier --check . && npx eslint **/*.{js,ts,jsx,tsx,mjs} --no-error-on-unmatched-pattern && npx stylelint **/*.{css,scss} --aei"
   },
-  "version": "0.1.4",
+  "version": "0.1.5",
   "packageManager": "yarn@4.0.2",
   "dependencies": {}
 }
