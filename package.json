@@ -18,11 +18,7 @@
     "eslint-plugin-prettier": "^5.0.1",
     "husky": "^8.0.3",
     "postcss": "^8.4.31",
-    "prettier": "^3.1.0",
-    "stylelint": "^15.3.0",
-    "stylelint-config-prettier": "^9.0.5",
-    "stylelint-config-standard-scss": "^7.0.1",
-    "stylelint-order": "^6.0.3"
+    "prettier": "^3.2.5"
   },
   "engines": {
     "npm": ">= 10",
@@ -36,13 +32,12 @@
     "url": "git+https://github.com/zinns/training-template.git"
   },
   "scripts": {
-    "format": "npx prettier --write .",
+    "fix:format": "prettier --write .",
     "postinstall": "npx husky install",
     "prepare": "npx husky install",
     "style": "npx stylelint **/*.css --fix",
-    "validate": "npx prettier --check . && npx eslint **/*.{js,ts,jsx,tsx,mjs} --no-error-on-unmatched-pattern && npx stylelint **/*.{css,scss} --aei"
+    "validate": "prettier --check . && eslint ."
   },
   "version": "0.1.5",
-  "packageManager": "yarn@4.0.2",
-  "dependencies": {}
+  "packageManager": "yarn@4.0.2"
 }
