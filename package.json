@@ -40,6 +40,6 @@
     "fix:style": "npx stylelint **/*.css --fix",
     "validate": "npx prettier --check . && npx eslint **/*.{js,ts,jsx,tsx,mjs} --no-error-on-unmatched-pattern && npx stylelint **/*.{css,scss} --aei"
   },
-  "version": "0.2.0",
+  "version": "0.2.1",
   "packageManager": "yarn@1.22.22"
 }
