@@ -1,10 +1,6 @@
 {
   "plugins": ["stylelint-scss", "stylelint-order"],
-  "extends": [
-    "stylelint-config-prettier",
-    "stylelint-config-standard-scss",
-    "stylelint-config-standard"
-  ],
+  "extends": ["stylelint-config-standard-scss", "stylelint-config-standard"],
   "rules": {
     "at-rule-no-unknown": null,
     "declaration-block-no-redundant-longhand-properties": null,
