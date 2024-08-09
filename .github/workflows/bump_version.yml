@@ -32,6 +32,5 @@ jobs:
           patch-wording: 'PATCH'
           rc-wording: 'RELEASE'
           tag-prefix: 'v'
-          default: null
       - name: 'cat package.json'
         run: cat ./package.json
