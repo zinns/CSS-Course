@@ -5,6 +5,7 @@ module.exports = {
     node: true,
   },
   extends: ['eslint:recommended', 'plugin:prettier/recommended', 'prettier'],
+  ignores: ['node_modules/*, .prettierignore'],
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
