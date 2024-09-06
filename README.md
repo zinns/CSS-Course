@@ -38,11 +38,13 @@ This repository contains folders related to the topics that are part of this sec
 
 - There is branch called `develop-padawans`. Remember always start to work from this branch.
 
+- Create a branch with your name `develop-[name]`.
+
 - Branch naming always has to be following the conventions.
 
 - Commits should always be meaningful.
 
-- PR's should always point to `develop-padawans`.
+- PR's should always point to `develop-[name]`.
 
 - PR's should always have reviewers.
 
@@ -60,11 +62,13 @@ Este repositorio contiene carpetas relacionadas con los temas que forman parte d
 
 - Existe una rama llamada `develop-padawans`. Siempre se debe de empezar a trabajar desde esta rama.
 
+- Crear una rama con nombre `develop-[nombre]`.
+
 - Nombre de las ramas siempre deben seguir las convenciones.
 
 - Commits siempre deben de ser informativos.
 
-- PR's siempre deben apuntar a `develop-padawans`.
+- PR's siempre deben apuntar a `develop-[nombre]`.
 
 - PR's siempre deben de tener reviewers.
 
