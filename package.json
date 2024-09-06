@@ -25,7 +25,8 @@
   },
   "engines": {
     "npm": ">= 10",
-    "yarn": ">= 1.19"
+    "yarn": ">= 1.19",
+    "node": "20.17.0"
   },
   "homepage": "https://github.com/zinns/training-template#readme",
   "license": "ISC",
