@@ -162,7 +162,6 @@
   "workbench.editor.highlightModifiedTabs": true,
   "workbench.iconTheme": "symbols",
   "workbench.productIconTheme": "fluent-icons",
-  "workbench.sideBar.location": "right",
   "workbench.colorCustomizations": {
     "editor.lineHighlightBackground": "#1073cf2d",
     "editor.lineHighlightBorder": "#9fced11f"
