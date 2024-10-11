@@ -1,4 +1,4 @@
-![zinns.io](zinns.png)
+![zinns.io](zinns.png)-----
 
 [Español](#curso-css)
 
