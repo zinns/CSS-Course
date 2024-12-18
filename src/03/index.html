@@ -17,12 +17,46 @@
       name="author"
       content="DavidTocineta"
     />
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
     <title>Estilos de cabecera</title>
     <style>
       ul {
         background-color: gold;
         width: 75%;
         height: 100px;
+      }
+      span {
+        font-family: 'Bebas Neue', serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: xx-large;
+        color: chartreuse;
+      }
+      @font-face {
+        font-family: playball;
+        src: url(./assets/Playball-Regular.ttf);
+      }
+      em {
+        font-family: playball, sans-serif;
+        font-size: xx-large;
+        color: red;
+      }
+      strong {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: x-large;
+        color: blue;
       }
     </style>
   </head>
@@ -44,6 +78,14 @@
         <li>ciclismo</li>
         <li>Carpinteria</li>
       </ul>
+      <section>
+        <h2 style="color: chartreuse; background-color: darkolivegreen; width: 70px">Paises</h2>
+        <span>Mexíco</span>
+        <br />
+        <em>Venezuela</em>
+        <br />
+        <strong>Thailandia</strong>
+      </section>
     </nav>
   </body>
 </html>
