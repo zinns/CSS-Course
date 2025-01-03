@@ -9,7 +9,7 @@
 1. Prototype the next example.
 
    > example
-   > ![example-1](assets/example-1.gif)
+   > ![example-1](./assets/example.gif)
 
 2. In other branch make another example, design free.
 
@@ -26,7 +26,7 @@
 1. Prototipar el siguiente ejemplo.
 
    > ejemplo
-   > ![ejemplo-1](assets/example-1.gif)
+   > ![ejemplo-1](./assets/example.gif)
 
 2. En otra rama prototipar con diseño libre otro ejemplo.
 
