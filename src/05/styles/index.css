@@ -1,4 +1,4 @@
-h2 {
+.title.desire {
   color: slateblue;
   font-family: 'Abril Fatface', serif;
   font-style: normal;
@@ -43,4 +43,8 @@ h2 {
 
 #challenges {
   color: springgreen;
+}
+
+.title.stanza {
+  color: steelblue;
 }
