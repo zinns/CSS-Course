@@ -1,0 +1,12 @@
+h1 {
+  color: yellowgreen;
+}
+
+div {
+  background-color: springgreen;
+  border: 10px solid rebeccapurple;
+  color: black;
+  margin: 30px 45%;
+  padding: 50px;
+  width: 60px;
+}
