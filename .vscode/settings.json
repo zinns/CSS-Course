@@ -167,5 +167,5 @@
     "editor.lineHighlightBorder": "#9fced11f"
   },
   "github-actions.workflows.pinned.workflows": [],
-  "livePreview.defaultPreviewPath": "/index.html"
+  "livePreview.defaultPreviewPath": "/src/06/index.html"
 }
