@@ -1,3 +1,84 @@
+h1 {
+  color: yellowgreen;
+}
+
 .one {
-  background-color: blueviolet;
+  display: flex;
+  justify-content: space-between;
+}
+
+h2 {
+  color: yellowgreen;
+}
+
+.flex-one > p {
+  background-color: violet;
+}
+
+.flex-one {
+  display: flex;
+  justify-content: space-around;
+}
+
+.flex-two > p {
+  background-color: violet;
+}
+
+.flex-two {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-three > p {
+  background-color: violet;
+}
+
+.flex-three {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.flex-four > p {
+  background-color: violet;
+  height: 75px;
+}
+
+.flex-four {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.flex-five > p {
+  background-color: violet;
+  margin: 0;
+}
+
+.flex-five {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-six > p {
+  background-color: violet;
+  margin: 0;
+}
+
+.flex-six {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-seven > p {
+  background-color: violet;
+  margin: 0;
+}
+
+.flex-seven {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
