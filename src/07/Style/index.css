@@ -2,9 +2,8 @@ h1 {
   color: yellowgreen;
 }
 
-.one {
-  display: flex;
-  justify-content: space-between;
+.one > div {
+  display: inline;
 }
 
 h2 {
