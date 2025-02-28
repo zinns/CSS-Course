@@ -6,6 +6,10 @@ h1 {
   display: inline;
 }
 
+.two > span {
+  display: block;
+}
+
 h2 {
   color: yellowgreen;
 }
