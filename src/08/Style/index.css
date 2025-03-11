@@ -1,0 +1,50 @@
+div > span {
+  margin: 10px 30px;
+  padding: 25px;
+}
+
+.border1 {
+  border: 4px seagreen solid;
+}
+
+.border2 {
+  border: 3px;
+  border-color: seagreen;
+  border-style: dashed;
+}
+
+.border3 {
+  border: 3px;
+  border-color: seagreen;
+  border-style: dotted;
+}
+
+.border4 {
+  border: 10px;
+  border-color: seagreen;
+  border-style: double;
+}
+
+.border5 {
+  border: 10px;
+  border-color: seagreen;
+  border-style: groove;
+}
+
+.border6 {
+  border: 10px;
+  border-color: seagreen;
+  border-style: ridge;
+}
+
+.border7 {
+  border: 10px;
+  border-color: seagreen;
+  border-style: inset;
+}
+
+.border8 {
+  border: 10px;
+  border-color: seagreen;
+  border-style: outset;
+}
