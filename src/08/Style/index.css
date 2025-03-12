@@ -1,4 +1,14 @@
+h1 {
+  color: white;
+  text-shadow:
+    -7px 1px 8px yellow,
+    -2px -6px 8px yellow,
+    3px 6px 8cap yellow,
+    10px 0 8px yellow;
+}
+
 div > span {
+  color: white;
   display: inline-block;
   margin: 10px 30px;
   padding: 25px;
@@ -51,9 +61,13 @@ div > span {
 }
 
 .text {
-  color: yellowgreen;
+  color: white;
   text-align: center;
-  text-decoration: underline;
+  text-shadow:
+    -7px 1px 8px yellow,
+    -2px -6px 8px yellow,
+    3px 6px 8cap yellow,
+    10px 0 8px yellow;
 }
 
 .example1 {
@@ -91,4 +105,12 @@ div > span {
 
 .example8 {
   text-align: left;
+}
+
+html {
+  background: content-box radial-gradient(#33a27e, black);
+}
+
+p {
+  color: white;
 }
