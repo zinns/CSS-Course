@@ -1,4 +1,5 @@
 div > span {
+  display: inline-block;
   margin: 10px 30px;
   padding: 25px;
 }
@@ -47,4 +48,26 @@ div > span {
   border: 10px;
   border-color: seagreen;
   border-style: outset;
+}
+
+.text {
+  color: yellowgreen;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.example1 {
+  text-align: center;
+}
+
+.example2 {
+  text-align: right;
+}
+
+.example3 {
+  text-align: justify;
+}
+
+.example4 {
+  text-align: left;
 }
