@@ -71,3 +71,24 @@ div > span {
 .example4 {
   text-align: left;
 }
+
+.example5 {
+  text-align: center;
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: row;
+}
+
+.example6 {
+  text-align: right;
+}
+
+.example7 {
+  text-align: justify;
+}
+
+.example8 {
+  text-align: left;
+}
