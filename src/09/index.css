@@ -2,13 +2,19 @@ h1 {
   color: rebeccapurple;
 }
 
-.t1 {
+.one {
   color: blue;
-  text-align: center;
 }
 
-.t2 {
+.two {
   color: red;
+}
+
+.three {
+  color: yellowgreen;
+}
+
+.title {
   text-align: center;
 }
 
@@ -73,4 +79,31 @@ h1 {
   bottom: 110px;
   left: 20px;
   z-index: -2;
+}
+
+.c1 {
+  background-color: blue;
+  bottom: 150px;
+}
+
+.c2 {
+  background-color: red;
+  left: 730px;
+  top: 300px;
+}
+
+.c3 {
+  background-color: yellowgreen;
+  right: 250px;
+  top: 600px;
+}
+
+.c4 {
+  background-color: turquoise;
+  right: 730px;
+  top: 200px;
+}
+
+section {
+  height: 100vh;
 }
