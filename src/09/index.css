@@ -18,6 +18,10 @@ h1 {
   color: turquoise;
 }
 
+.five {
+  color: slateblue;
+}
+
 .title {
   text-align: center;
 }
@@ -137,4 +141,15 @@ hr {
   height: 100px;
   margin: 0;
   width: 100px;
+}
+
+.fixed {
+  background-color: slateblue;
+  height: 100px;
+  left: 1340px;
+  margin: 0;
+  position: fixed;
+  top: 0%;
+  width: 100px;
+  z-index: 2;
 }
