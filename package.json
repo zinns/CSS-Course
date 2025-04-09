@@ -36,9 +36,10 @@
     "url": "git+https://github.com/zinns/training-template.git"
   },
   "scripts": {
+    "build:preview": "node build-preview.mjs",
     "fix:format": "prettier --write .",
-    "prepare": "husky",
     "fix:style": "npx stylelint **/*.css --fix",
+    "prepare": "husky",
     "validate": "npx prettier --check . && npx eslint **/*.{js,ts,jsx,tsx,mjs} --no-error-on-unmatched-pattern && npx stylelint **/*.{css,scss} --aei"
   },
   "version": "0.4.1",
