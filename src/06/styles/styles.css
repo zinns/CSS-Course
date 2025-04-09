@@ -1,0 +1,14 @@
+h1 {
+  background-color: #27e77d;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px #d3525280;
+  color: blue;
+  font-size: 40px;
+  font-weight: bold;
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: underline;
+  transition: all 0.3s ease;
+}
