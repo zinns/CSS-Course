@@ -14,6 +14,10 @@ h1 {
   color: yellowgreen;
 }
 
+.four {
+  color: turquoise;
+}
+
 .title {
   text-align: center;
 }
@@ -106,4 +110,31 @@ h1 {
 
 section {
   height: 100vh;
+}
+
+hr {
+  margin: 75px 0;
+}
+
+.section {
+  border: 1px red solid;
+  display: flex;
+  height: 100vh;
+  position: relative;
+}
+
+.sticky {
+  background-color: red;
+  height: 100px;
+  margin: 0;
+  position: sticky;
+  top: 0%;
+  width: 100px;
+}
+
+.square {
+  background-color: cadetblue;
+  height: 100px;
+  margin: 0;
+  width: 100px;
 }
