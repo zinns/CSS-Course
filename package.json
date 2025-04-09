@@ -42,6 +42,6 @@
     "prepare": "husky",
     "validate": "npx prettier --check . && npx eslint **/*.{js,ts,jsx,tsx,mjs} --no-error-on-unmatched-pattern && npx stylelint **/*.{css,scss} --aei"
   },
-  "version": "0.4.2",
+  "version": "0.4.3",
   "packageManager": "yarn@1.22.22"
 }

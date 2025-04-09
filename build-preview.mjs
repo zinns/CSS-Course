@@ -1,7 +1,9 @@
-import { cpSync, mkdirSync, readdirSync, rmSync, writeFileSync } from 'node:fs';
+import { cpSync, existsSync, mkdirSync, readdirSync, rmSync, writeFileSync } from 'node:fs';
 
 const prepareBuild = () => {
-  rmSync('build', { recursive: true });
+  if (existsSync('build')) {
+    rmSync('build', { recursive: true });
+  }
   mkdirSync('build');
 
   moveSrcFolders('src');
