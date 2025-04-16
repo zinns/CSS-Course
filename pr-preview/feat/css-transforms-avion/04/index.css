@@ -1,0 +1,15 @@
+section > p {
+  color: yellowgreen;
+  font-family: 'Kaushan Script', serif;
+  font-size: large;
+  font-weight: 400;
+}
+
+.title {
+  background-color: black;
+  color: yellowgreen;
+  font-family: 'Kaushan Script', serif;
+  font-size: xx-large;
+  font-weight: 400;
+  width: 75px;
+}
