@@ -53,3 +53,32 @@ h2 {
   transform: rotateX(45deg);
   translate: 990px 50px;
 }
+
+.text {
+  text-align: center;
+}
+
+.patch1 {
+  color: red;
+  display: inline-block;
+  transform: translate(15px, -10px);
+}
+
+.patch2 {
+  color: red;
+  display: inline-block;
+  transform: translate(30px);
+}
+
+.patch3 {
+  color: red;
+  display: inline-block;
+  transform: translate(5px, 10px);
+}
+
+.patch4 {
+  color: red;
+  display: inline-block;
+  font-size: small;
+  font-weight: bold;
+}
