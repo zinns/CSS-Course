@@ -1,0 +1,115 @@
+h1 {
+  color: white;
+  text-shadow:
+    -7px 1px 8px yellow,
+    -2px -6px 8px yellow,
+    3px 6px 8cap yellow,
+    10px 0 8px yellow;
+}
+
+div > span {
+  color: white;
+  display: inline-block;
+  margin: 10px 30px;
+  padding: 25px;
+}
+
+.border1 {
+  border: 4px seagreen solid;
+}
+
+.border2 {
+  border: 3px;
+  border-color: seagreen;
+  border-style: dashed;
+}
+
+.border3 {
+  border: 3px;
+  border-color: seagreen;
+  border-style: dotted;
+}
+
+.border4 {
+  border: 10px;
+  border-color: seagreen;
+  border-style: double;
+}
+
+.border5 {
+  border: 10px;
+  border-color: seagreen;
+  border-style: groove;
+}
+
+.border6 {
+  border: 10px;
+  border-color: seagreen;
+  border-style: ridge;
+}
+
+.border7 {
+  border: 10px;
+  border-color: seagreen;
+  border-style: inset;
+}
+
+.border8 {
+  border: 10px;
+  border-color: seagreen;
+  border-style: outset;
+}
+
+.text {
+  color: white;
+  text-align: center;
+  text-shadow:
+    -7px 1px 8px yellow,
+    -2px -6px 8px yellow,
+    3px 6px 8cap yellow,
+    10px 0 8px yellow;
+}
+
+.example1 {
+  text-align: center;
+}
+
+.example2 {
+  text-align: right;
+}
+
+.example3 {
+  text-align: justify;
+}
+
+.example4 {
+  text-align: left;
+}
+
+.example5 {
+  text-align: center;
+}
+
+.contenedor {
+  column-count: 2;
+}
+
+.example6 {
+  text-align: right;
+}
+
+.example7 {
+  text-align: justify;
+}
+
+.example8 {
+  text-align: left;
+}
+
+html {
+  background: content-box radial-gradient(#33a27e, black);
+}
+
+p {
+  color: white;
+}
