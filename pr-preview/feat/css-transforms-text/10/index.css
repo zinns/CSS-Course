@@ -79,6 +79,5 @@ h2 {
 .patch4 {
   color: red;
   display: inline-block;
-  font-size: small;
-  font-weight: bold;
+  scale: 0.7;
 }
