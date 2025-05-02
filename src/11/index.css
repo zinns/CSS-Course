@@ -8,7 +8,7 @@ h2 {
   text-align: center;
 }
 
-.seccion1 {
+.seccion {
   border: 5px lightskyblue solid;
   display: flex;
   flex-direction: column;
@@ -48,4 +48,22 @@ div > span {
   animation-fill-mode: forwards;
   animation-iteration-count: 1;
   display: flex;
+}
+
+div > p {
+  animation: return 20s linear 1s infinite alternate;
+  color: red;
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  justify-content: center;
+  transform: translate(10px, 0);
+}
+
+@keyframes return {
+  to {
+    color: blue;
+    font-size: 24px;
+    transform: translate(90%);
+  }
 }
