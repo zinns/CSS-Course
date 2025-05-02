@@ -1,0 +1,32 @@
+h1 {
+  color: lightskyblue;
+  text-align: center;
+}
+
+h2 {
+  color: yellowgreen;
+  text-align: center;
+}
+
+.seccion1 {
+  border: 5px lightskyblue solid;
+  height: 50vw;
+}
+
+div > span {
+  animation-duration: 20s;
+  animation-name: colores;
+  animation-timing-function: linear;
+  color: red;
+  display: flex;
+  font-size: 16px;
+  transform: translate(10px, 20vw);
+}
+
+@keyframes colores {
+  to {
+    color: blue;
+    font-size: 24px;
+    transform: translate(40%, 20vw);
+  }
+}
