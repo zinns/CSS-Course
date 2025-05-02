@@ -8,25 +8,62 @@ h2 {
   text-align: center;
 }
 
-.seccion1 {
+.seccion {
   border: 5px lightskyblue solid;
+  display: flex;
+  flex-direction: column;
   height: 12vw;
+  justify-content: center;
 }
 
 div > span {
+  animation-delay: 1s;
   animation-duration: 20s;
+  animation-iteration-count: infinite;
   animation-name: colores;
   animation-timing-function: linear;
   color: red;
   display: flex;
   font-size: 16px;
-  transform: translate(10px, 5vw);
+  transform: translate(10px, 0);
 }
 
 @keyframes colores {
   to {
     color: blue;
     font-size: 24px;
-    transform: translate(40%, 5vw);
+    transform: translate(45%, 0);
+  }
+}
+
+.seccion2 {
+  border: 5px lightskyblue solid;
+  display: flex;
+  flex-direction: column;
+  height: 20vw;
+  justify-content: space-evenly;
+}
+
+.static {
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  display: flex;
+}
+
+div > p {
+  animation: return 20s linear 1s infinite alternate;
+  color: red;
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  justify-content: center;
+  transform: translate(10px, 0);
+}
+
+@keyframes return {
+  to {
+    color: blue;
+    font-size: 24px;
+    transform: translate(90%);
   }
 }
