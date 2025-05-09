@@ -1,0 +1,89 @@
+h1 {
+  color: yellowgreen;
+  text-align: center;
+}
+
+.sistema {
+  align-items: center;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.sol {
+  background: radial-gradient(yellow, orange);
+  border-radius: 200px;
+  margin: 1vh;
+  padding: 50px;
+}
+
+.mercurio {
+  background: radial-gradient(aqua, silver);
+  border-radius: 300px;
+  font-size: 2px;
+  margin: 1vh;
+  padding: 15px;
+}
+
+.venus {
+  background: radial-gradient(tomato, yellow);
+  border-radius: 200px;
+  font-size: 5px;
+  margin: 1vh;
+  padding: 25px;
+}
+
+.tierra {
+  background: radial-gradient(yellowgreen, blue);
+  border-radius: 200px;
+  font-size: 5px;
+  margin: 1vh;
+  padding: 30px;
+}
+
+.marte {
+  background: radial-gradient(yellow, orange, red);
+  border-radius: 200px;
+  font-size: 2px;
+  margin: 1vh;
+  padding: 15px;
+}
+
+.jupiter {
+  background: radial-gradient(red, orange, yellow);
+  border-radius: 200px;
+  font-size: 4px;
+  margin: 1vh;
+  padding: 35px;
+}
+
+.saturno {
+  background: radial-gradient(orange, gold, silver);
+  border-radius: 200px;
+  font-size: 3px;
+  margin: 1vh;
+  padding: 40px;
+}
+
+.urano {
+  background: radial-gradient(green, yellowgreen, silver);
+  border-radius: 200px;
+  font-size: 5px;
+  margin: 1vh;
+  padding: 30px;
+}
+
+.neptuno {
+  background: radial-gradient(aqua, skyblue, silver);
+  border-radius: 200px;
+  font-size: 3px;
+  margin: 1vh;
+  padding: 35px;
+}
+
+.pluton {
+  background: radial-gradient(skyblue, silver, black);
+  border-radius: 200px;
+  font-size: 1px;
+  margin: 2vh;
+  padding: 15px;
+}
