@@ -3,26 +3,58 @@ h1 {
   text-align: center;
 }
 
+body {
+  background-color: black;
+}
+
 .sistema {
   align-items: center;
   display: flex;
-  flex-direction: column-reverse;
+  height: 100vh;
+  justify-content: center;
+
 }
 
 .sol {
+  align-items: center;
+  animation: radiation 3s linear alternate infinite;
   background: radial-gradient(yellow, orange);
+  border: orange 2px solid;
   border-radius: 200px;
+  display: flex;
+  height: 100px;
+  justify-content: center;
   margin: 1vh;
-  padding: 50px;
+  width: 100px;
+}
+
+@keyframes radiation {
+  to {
+    border: red 2px solid;
+  }
 }
 
 .mercurio {
+  align-items: center;
   background: radial-gradient(aqua, silver);
   border-radius: 300px;
-  font-size: 2px;
-  margin: 1vh;
-  padding: 15px;
+  display: flex;
+  font-size: 9px;
+  height: 40px;
+  justify-content: center;
+  left: 40%;
+  position: absolute;
+  top: -9%;
+  width: 40px;
 }
+
+.orbita {
+  border: 1px dashed white;
+  border-radius: 100%;
+  padding: 100px;
+  position: absolute;
+}
+
 
 .venus {
   background: radial-gradient(tomato, yellow);
