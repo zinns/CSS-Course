@@ -1,0 +1,361 @@
+h1 {
+  color: yellowgreen;
+  margin: 25vh 0;
+  text-align: center;
+}
+
+body {
+  background-color: black;
+}
+
+.sistema {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
+
+.sol {
+  align-items: center;
+  animation: radiation 3s linear alternate infinite;
+  background: radial-gradient(yellow, orange);
+  border: orange 2px solid;
+  border-radius: 100%;
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  margin: 1vh;
+  width: 100px;
+}
+
+@keyframes radiation {
+  to {
+    border: red 2px solid;
+  }
+}
+
+.mercurio {
+  align-items: center;
+  animation: planeta-mercurio 5s linear infinite normal;
+  background: radial-gradient(aqua, silver);
+  border-radius: 100%;
+  display: flex;
+  font-size: 9px;
+  height: 40px;
+  justify-content: center;
+  left: 37%;
+  position: absolute;
+  top: -9%;
+  width: 40px;
+}
+
+.orbita-mercurio {
+  animation: rotacion-mercurio 4s linear infinite normal;
+  border: 1px dashed white;
+  border-radius: 100%;
+  height: 160px;
+  position: absolute;
+  width: 160px;
+}
+
+@keyframes rotacion-mercurio {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes planeta-mercurio {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.venus {
+  align-items: center;
+  animation: planeta-mercurio 5s linear infinite normal;
+  background: radial-gradient(tomato, yellow);
+  border-radius: 100%;
+  display: flex;
+  font-size: 12px;
+  height: 50px;
+  justify-content: center;
+  left: 36%;
+  margin: 1vh;
+  position: relative;
+  top: -15%;
+  width: 50px;
+}
+
+.orbita-venus {
+  animation: rotacion-venus 7s linear infinite normal;
+  border: 1px dashed white;
+  border-radius: 100%;
+  height: 240px;
+  position: absolute;
+  width: 240px;
+}
+
+@keyframes rotacion-venus {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes planeta-venus {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.tierra {
+  align-items: center;
+  animation: planeta-tierra 5s linear infinite normal;
+  background: radial-gradient(yellowgreen, blue);
+  border-radius: 100%;
+  display: flex;
+  font-size: 12px;
+  height: 50px;
+  justify-content: center;
+  left: 39.5%;
+  margin: 1vh;
+  position: absolute;
+  top: -10%;
+  width: 50px;
+}
+
+.orbita-tierra {
+  animation: rotacion-tierra 8s linear infinite normal;
+  border: 1px dashed white;
+  border-radius: 100%;
+  height: 340px;
+  position: absolute;
+  width: 340px;
+}
+
+@keyframes planeta-tierra {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotacion-tierra {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.marte {
+  align-items: center;
+  animation: planeta-marte 5s linear infinite normal;
+  background: radial-gradient(yellow, orange, red);
+  border-radius: 100%;
+  display: flex;
+  font-size: 12px;
+  height: 35px;
+  justify-content: center;
+  left: 45%;
+  position: absolute;
+  top: -5%;
+  width: 35px;
+}
+
+.orbita-marte {
+  animation: rotacion-marte 12s linear infinite normal;
+  border: 1px dashed white;
+  border-radius: 100%;
+  height: 420px;
+  position: absolute;
+  width: 420px;
+}
+
+@keyframes planeta-marte {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotacion-marte {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.jupiter {
+  align-items: center;
+  animation: planeta-jupiter 5s linear infinite normal;
+  background: radial-gradient(red, orange, yellow);
+  border-radius: 100%;
+  display: flex;
+  font-size: 16px;
+  height: 70px;
+  justify-content: center;
+  left: 43%;
+  position: absolute;
+  top: -40px;
+  width: 70px;
+}
+
+.orbita-jupiter {
+  animation: rotacion-jupiter 25s linear infinite normal;
+  border: 1px white dashed;
+  border-radius: 100%;
+  height: 520px;
+  position: absolute;
+  width: 520px;
+}
+
+@keyframes planeta-jupiter {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotacion-jupiter {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.saturno {
+  align-items: center;
+  animation: planeta-saturno 5s linear infinite normal;
+  background: radial-gradient(orange, gold, silver);
+  border-radius: 100%;
+  display: flex;
+  font-size: 16px;
+  height: 60px;
+  justify-content: center;
+  left: 45%;
+  position: absolute;
+  top: -35px;
+  width: 60px;
+}
+
+.orbita-saturno {
+  animation: rotacion-saturno 40s linear infinite normal;
+  border: 1px white dashed;
+  border-radius: 100%;
+  height: 640px;
+  position: absolute;
+  width: 640px;
+}
+
+@keyframes planeta-saturno {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotacion-saturno {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.urano {
+  align-items: center;
+  animation: planeta-urano 5s linear infinite normal;
+  background: radial-gradient(green, yellowgreen, silver);
+  border-radius: 100%;
+  display: flex;
+  font-size: 12px;
+  height: 50px;
+  justify-content: center;
+  left: 46.5%;
+  position: absolute;
+  top: -25px;
+  width: 50px;
+}
+
+.orbita-urano {
+  animation: rotacion-urano 60s linear infinite normal;
+  border: 1px white dashed;
+  border-radius: 100%;
+  height: 750px;
+  position: absolute;
+  width: 750px;
+}
+
+@keyframes planeta-urano {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotacion-urano {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.neptuno {
+  align-items: center;
+  animation: planeta-neptuno 5s linear infinite normal;
+  background: radial-gradient(aqua, skyblue, silver);
+  border-radius: 100%;
+  display: flex;
+  font-size: 12px;
+  height: 70px;
+  justify-content: center;
+  left: 46%;
+  position: absolute;
+  top: -40px;
+  width: 70px;
+}
+
+.orbita-neptuno {
+  animation: rotacion-neptuno 180s linear infinite normal;
+  border: 1px white dashed;
+  border-radius: 100%;
+  height: 850px;
+  position: absolute;
+  width: 850px;
+}
+
+@keyframes planeta-neptuno {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotacion-neptuno {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.pluton {
+  align-items: center;
+  animation: planeta-pluton 5s linear infinite normal;
+  background: radial-gradient(skyblue, silver, black);
+  border-radius: 100%;
+  display: flex;
+  font-size: 12px;
+  height: 40px;
+  justify-content: center;
+  left: 48%;
+  position: absolute;
+  top: -20px;
+  width: 40px;
+}
+
+.orbita-pluton {
+  animation: rotacion-pluton 300s linear infinite normal;
+  border: 1px white dashed;
+  border-radius: 100%;
+  height: 960px;
+  position: absolute;
+  width: 960px;
+}
+
+@keyframes planeta-pluton {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotacion-pluton {
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,82 @@
+.title.desire {
+  color: slateblue;
+  font-family: 'Abril Fatface', serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+#know {
+  color: yellowgreen;
+}
+
+#peace {
+  color: blue;
+}
+
+#health {
+  color: brown;
+}
+
+#love {
+  color: violet;
+}
+
+#money {
+  color: tomato;
+}
+
+#job {
+  color: teal;
+}
+
+#bike {
+  color: orange;
+}
+
+#body {
+  color: chocolate;
+}
+
+#tattod {
+  color: blueviolet;
+}
+
+#challenges {
+  color: springgreen;
+}
+
+.title.stanza {
+  color: steelblue;
+}
+
+div > p {
+  color: white;
+  font-family: 'Abril Fatface', serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.first.section {
+  background-color: yellow;
+}
+
+.second.section {
+  background-color: blue;
+}
+
+.third.section {
+  background-color: red;
+}
+
+section > p {
+  background-color: skyblue;
+  color: black;
+  font-family: 'Abril Fatface', serif;
+  font-style: normal;
+  font-weight: 400;
+  width: 600px;
+}
+
+.first > p {
+  color: black;
+}
