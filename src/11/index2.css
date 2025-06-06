@@ -20,6 +20,7 @@ body {
   animation: planet-all 5s linear infinite normal;
   border-radius: 100%;
   display: flex;
+  font-size: 12px;
   justify-content: center;
   position: absolute;
 }
@@ -51,20 +52,19 @@ body {
 
 .mercurio {
   background: radial-gradient(aqua, silver);
-  font-size: 9px;
-  height: 40px;
+  height: 50px;
   left: 37%;
-  top: -9%;
-  width: 40px;
+  top: -10%;
+  width: 50px;
 }
 
 .orbita-mercurio {
-  animation: rotacion-mercurio 4s linear infinite normal;
+  animation: rotacion 4s linear infinite normal;
   height: 160px;
   width: 160px;
 }
 
-@keyframes rotacion-mercurio {
+@keyframes rotacion {
   to {
     transform: rotate(360deg);
   }
@@ -78,72 +78,48 @@ body {
 
 .venus {
   background: radial-gradient(tomato, yellow);
-  font-size: 12px;
   height: 50px;
-  left: 36%;
-  margin: 1vh;
-  top: -15%;
-  width: 50px;
-}
-
-.orbita-venus {
-  animation: rotacion-venus 7s linear infinite normal;
-  height: 240px;
-  width: 240px;
-}
-
-@keyframes rotacion-venus {
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.tierra {
-  background: radial-gradient(yellowgreen, blue);
-  font-size: 12px;
-  height: 50px;
-  left: 39.5%;
-  margin: 1vh;
+  left: 40%;
   top: -10%;
   width: 50px;
 }
 
+.orbita-venus {
+  animation: rotacion 7s linear infinite normal;
+  height: 240px;
+  width: 240px;
+}
+
+.tierra {
+  background: radial-gradient(yellowgreen, blue);
+  height: 50px;
+  left: 42%;
+  top: -7%;
+  width: 50px;
+}
+
 .orbita-tierra {
-  animation: rotacion-tierra 8s linear infinite normal;
+  animation: rotacion 8s linear infinite normal;
   height: 340px;
   width: 340px;
 }
 
-@keyframes rotacion-tierra {
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 .marte {
   background: radial-gradient(yellow, orange, red);
-  font-size: 12px;
   height: 35px;
   left: 45%;
-  top: -5%;
+  top: -4%;
   width: 35px;
 }
 
 .orbita-marte {
-  animation: rotacion-marte 12s linear infinite normal;
+  animation: rotacion 12s linear infinite normal;
   height: 420px;
   width: 420px;
 }
 
-@keyframes rotacion-marte {
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 .jupiter {
   background: radial-gradient(red, orange, yellow);
-  font-size: 16px;
   height: 70px;
   left: 43%;
   top: -40px;
@@ -151,62 +127,41 @@ body {
 }
 
 .orbita-jupiter {
-  animation: rotacion-jupiter 25s linear infinite normal;
+  animation: rotacion 25s linear infinite normal;
   height: 520px;
   width: 520px;
 }
 
-@keyframes rotacion-jupiter {
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 .saturno {
   background: radial-gradient(orange, gold, silver);
-  font-size: 16px;
   height: 60px;
   left: 45%;
-  top: -35px;
+  top: -33px;
   width: 60px;
 }
 
 .orbita-saturno {
-  animation: rotacion-saturno 40s linear infinite normal;
+  animation: rotacion 40s linear infinite normal;
   height: 640px;
   width: 640px;
 }
 
-@keyframes rotacion-saturno {
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 .urano {
   background: radial-gradient(green, yellowgreen, silver);
-  font-size: 12px;
   height: 50px;
-  left: 46.5%;
+  left: 47%;
   top: -25px;
   width: 50px;
 }
 
 .orbita-urano {
-  animation: rotacion-urano 60s linear infinite normal;
+  animation: rotacion 60s linear infinite normal;
   height: 750px;
   width: 750px;
 }
 
-@keyframes rotacion-urano {
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 .neptuno {
   background: radial-gradient(aqua, skyblue, silver);
-  font-size: 12px;
   height: 70px;
   left: 46%;
   top: -40px;
@@ -214,20 +169,13 @@ body {
 }
 
 .orbita-neptuno {
-  animation: rotacion-neptuno 180s linear infinite normal;
+  animation: rotacion 180s linear infinite normal;
   height: 850px;
   width: 850px;
 }
 
-@keyframes rotacion-neptuno {
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 .pluton {
   background: radial-gradient(skyblue, silver, black);
-  font-size: 12px;
   height: 40px;
   left: 48%;
   top: -20px;
@@ -235,13 +183,7 @@ body {
 }
 
 .orbita-pluton {
-  animation: rotacion-pluton 300s linear infinite normal;
+  animation: rotacion 300s linear infinite normal;
   height: 960px;
   width: 960px;
-}
-
-@keyframes rotacion-pluton {
-  to {
-    transform: rotate(360deg);
-  }
 }
