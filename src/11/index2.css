@@ -1,0 +1,183 @@
+h1 {
+  color: yellowgreen;
+  margin: 25vh 0;
+  text-align: center;
+}
+
+body {
+  background-color: black;
+}
+
+.sistema {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
+
+.planeta {
+  align-items: center;
+  animation: rotacion 5s linear infinite normal;
+  border-radius: 100%;
+  display: flex;
+  font-size: 12px;
+  justify-content: center;
+  position: absolute;
+}
+
+.trajectory {
+  border: 1px dashed white;
+  border-radius: 100%;
+  position: absolute;
+}
+
+.sol {
+  align-items: center;
+  animation: radiation 3s linear alternate infinite;
+  background: radial-gradient(yellow, orange);
+  border: orange 2px solid;
+  border-radius: 100%;
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  margin: 1vh;
+  width: 100px;
+}
+
+@keyframes radiation {
+  to {
+    border: red 2px solid;
+  }
+}
+
+.mercurio {
+  background: radial-gradient(aqua, silver);
+  height: 50px;
+  left: 37%;
+  top: -10%;
+  width: 50px;
+}
+
+.orbita-mercurio {
+  animation: rotacion 4s linear infinite normal;
+  height: 160px;
+  width: 160px;
+}
+
+@keyframes rotacion {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.venus {
+  background: radial-gradient(tomato, yellow);
+  height: 50px;
+  left: 40%;
+  top: -10%;
+  width: 50px;
+}
+
+.orbita-venus {
+  animation: rotacion 7s linear infinite normal;
+  height: 240px;
+  width: 240px;
+}
+
+.tierra {
+  background: radial-gradient(yellowgreen, blue);
+  height: 50px;
+  left: 42%;
+  top: -7%;
+  width: 50px;
+}
+
+.orbita-tierra {
+  animation: rotacion 8s linear infinite normal;
+  height: 340px;
+  width: 340px;
+}
+
+.marte {
+  background: radial-gradient(yellow, orange, red);
+  height: 35px;
+  left: 45%;
+  top: -4%;
+  width: 35px;
+}
+
+.orbita-marte {
+  animation: rotacion 12s linear infinite normal;
+  height: 420px;
+  width: 420px;
+}
+
+.jupiter {
+  background: radial-gradient(red, orange, yellow);
+  height: 70px;
+  left: 43%;
+  top: -40px;
+  width: 70px;
+}
+
+.orbita-jupiter {
+  animation: rotacion 25s linear infinite normal;
+  height: 520px;
+  width: 520px;
+}
+
+.saturno {
+  background: radial-gradient(orange, gold, silver);
+  height: 60px;
+  left: 45%;
+  top: -33px;
+  width: 60px;
+}
+
+.orbita-saturno {
+  animation: rotacion 40s linear infinite normal;
+  height: 640px;
+  width: 640px;
+}
+
+.urano {
+  background: radial-gradient(green, yellowgreen, silver);
+  height: 50px;
+  left: 47%;
+  top: -25px;
+  width: 50px;
+}
+
+.orbita-urano {
+  animation: rotacion 60s linear infinite normal;
+  height: 750px;
+  width: 750px;
+}
+
+.neptuno {
+  background: radial-gradient(aqua, skyblue, silver);
+  height: 70px;
+  left: 46%;
+  top: -40px;
+  width: 70px;
+}
+
+.orbita-neptuno {
+  animation: rotacion 180s linear infinite normal;
+  height: 850px;
+  width: 850px;
+}
+
+.pluton {
+  background: radial-gradient(skyblue, silver, black);
+  height: 40px;
+  left: 48%;
+  top: -20px;
+  width: 40px;
+}
+
+.orbita-pluton {
+  animation: rotacion 300s linear infinite normal;
+  height: 960px;
+  width: 960px;
+}
