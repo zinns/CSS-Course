@@ -17,7 +17,7 @@ body {
 
 .planeta {
   align-items: center;
-  animation: planet-all 5s linear infinite normal;
+  animation: rotacion 5s linear infinite normal;
   border-radius: 100%;
   display: flex;
   font-size: 12px;
@@ -65,12 +65,6 @@ body {
 }
 
 @keyframes rotacion {
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes planet-all {
   to {
     transform: rotate(360deg);
   }
