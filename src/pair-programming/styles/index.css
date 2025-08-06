@@ -1,3 +1,27 @@
 body {
   margin: 0;
 }
+
+div {
+  display: inline-flex;
+  width: 100%;
+}
+
+span {
+  align-items: center;
+  animation: click-me 5s linear 0s infinite normal backwards;
+  background-color: #425161;
+  border-radius: 10px;
+  color: white;
+  display: inline-flex;
+  height: 60px;
+  justify-content: center;
+  margin: 20px 40px;
+  width: 150px;
+}
+
+@keyframes click-me {
+  to {
+    transform: translate(30vw);
+  }
+}
