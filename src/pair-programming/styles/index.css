@@ -25,3 +25,25 @@ button {
     transform: translate(30vw);
   }
 }
+
+@keyframes vanish-move {
+  from {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  to {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+}
+
+#push-button {
+  animation: vanish-move 5s linear infinite;
+  background-color: skyblue;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
