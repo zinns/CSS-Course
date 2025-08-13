@@ -8,15 +8,13 @@ div {
 }
 
 button {
-  align-items: center;
   animation: click-me 5s linear 0s infinite normal backwards;
   background-color: #425161;
   border-radius: 10px;
+  border-style: none;
   color: white;
-  display: inline-flex;
   height: 60px;
-  justify-content: center;
-  margin: 20px 40px;
+  margin: 10px 20px;
   width: 150px;
 }
 
