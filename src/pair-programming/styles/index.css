@@ -2,20 +2,15 @@ body {
   margin: 0;
 }
 
-div {
-  display: inline-flex;
-  width: 100%;
-}
-
-button {
+#click-button {
   animation: click-me 5s linear 0s infinite normal backwards;
   background-color: #425161;
   border-radius: 10px;
   border-style: none;
   color: white;
-  height: 60px;
+  height: 50px;
   margin: 10px 20px;
-  width: 150px;
+  width: 100px;
 }
 
 @keyframes click-me {
