@@ -57,7 +57,6 @@ body {
   }
 }
 
-
 #haz-click {
   animation: scale-click 4s normal infinite backwards;
   background-color: #ef4228;
