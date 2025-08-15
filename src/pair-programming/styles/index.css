@@ -7,6 +7,34 @@ body {
   padding: 2rem;
 }
 
+#click-button {
+  animation: click-me 5s linear 0s infinite normal backwards;
+  background-color: #425161;
+  border-radius: 10px;
+  border-style: none;
+  color: white;
+  height: 50px;
+  width: 100px;
+}
+
+@keyframes click-me {
+  to {
+    transform: translate(30vw);
+  }
+}
+
+@keyframes vanish-move {
+  from {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  to {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+}
+
 #push-button {
   animation: vanish-move 5s linear infinite;
   background-color: skyblue;
