@@ -57,6 +57,23 @@ body {
   }
 }
 
+#haz-click {
+  animation: scale-click 4s normal infinite backwards;
+  background-color: #ef4228;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  height: 60px;
+  transform: scale(1.2);
+  width: 175px;
+}
+
+@keyframes scale-click {
+  to {
+    transform: scale(0.7) translate(60vw);
+  }
+}
+
 .push-here {
   animation: smart-rotate 5s linear infinite;
   background-color: steelblue;
