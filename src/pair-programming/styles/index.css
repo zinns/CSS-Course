@@ -56,3 +56,22 @@ body {
     transform: translateX(25vw);
   }
 }
+
+.push-here {
+  animation: smart-rotate 5s linear infinite;
+  background-color: steelblue;
+  border: none;
+  border-radius: 0.5rem;
+  color: white;
+  padding: 1.5rem 3rem;
+}
+
+@keyframes smart-rotate {
+  from {
+    transform: translate(-100%) rotate(-360deg);
+  }
+
+  to {
+    transform: translateX(25vw);
+  }
+}
