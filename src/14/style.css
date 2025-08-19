@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+}
+
+.media-img {
+  height: 56px;
+  width: 100%;
+}
+
+.img {
+  background: url('https://picsum.photos/seed/picsum/200/300');
+  background-size: cover;
+  height: 100px;
+  width: 100px;
+}
+
+@media (width <= 480px) {
+  .img {
+    height: 200px;
+    width: 200px;
+  }
+}
+
+@media (width > 480px) and (width <= 768px) {
+  .img {
+    height: 300px;
+    width: 300px;
+  }
+}
+
+@media (width > 769px) and (width <= 1024px) {
+  .img {
+    height: 400px;
+    width: 400px;
+  }
+}
+
+@media (width > 1024px) and (width <= 1200px) {
+  .img {
+    height: 500px;
+    width: 500px;
+  }
+}
