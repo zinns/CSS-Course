@@ -5,7 +5,7 @@ body {
   flex-direction: column;
   gap: 2rem;
   margin: 0;
-  padding: 2rem;
+  padding: 2rem 0;
 }
 
 #click-button {
@@ -92,4 +92,12 @@ body {
   to {
     transform: translateX(25vw);
   }
+}
+
+.divider-1 {
+  background: linear-gradient(90deg, #85ffca 0%, #a8b1ff 50%, #ec9eff 100%);
+  border: none;
+  height: 56px;
+  margin-top: 4rem;
+  width: 100%;
 }
