@@ -9,7 +9,7 @@
 1. Prototype the next examples.
 
    > example
-   > ![example](./assets/examples.gif)
+   > ![example](https://pub-0f2e9f13c00f45d9951ac64e5b3af2f6.r2.dev/14%3Aexamples.gif)
 
 2. Use external fonts.
 
@@ -28,7 +28,7 @@
 1. Prototipar los siguientes ejemplos.
 
    > ejemplos
-   > ![ejemplos](./assets/example.gif)
+   > ![ejemplos](https://pub-0f2e9f13c00f45d9951ac64e5b3af2f6.r2.dev/14%3Aexamples.gif)
 
 2. Usar fuentes externas
 
