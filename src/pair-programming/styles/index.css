@@ -94,17 +94,17 @@ body {
   }
 }
 
-.divider-1 {
-  background: linear-gradient(90deg, #85ffca 0%, #a8b1ff 50%, #ec9eff 100%);
+.divider {
   border: none;
   height: 56px;
   margin-top: 4rem;
   width: 100%;
 }
 
-.divider-2 {
+.line-1 {
+  background: linear-gradient(90deg, #85ffca 0%, #a8b1ff 50%, #ec9eff 100%);
+}
+
+.line-2 {
   background: linear-gradient(90deg, #60efff, #0d00ff);
-  border: none;
-  height: 56px;
-  width: 100%;
 }
