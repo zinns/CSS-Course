@@ -101,3 +101,10 @@ body {
   margin-top: 4rem;
   width: 100%;
 }
+
+.divider-2 {
+  background: linear-gradient(90deg, #60efff, #0d00ff);
+  border: none;
+  height: 56px;
+  width: 100%;
+}
