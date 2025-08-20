@@ -6,12 +6,14 @@
 
 # Instructions
 
-1. Prototype the next example.
+1. Prototype the next examples.
 
    > example
-   > ![example-1](./assets/example.gif)
+   > ![example](./assets/examples.gif)
 
-2. In other branch make another example, design free.
+2. Use external fonts.
+
+3. Use different gradients
 
 ## Reminders
 
@@ -23,12 +25,14 @@
 
 ## Instrucciones
 
-1. Prototipar el siguiente ejemplo.
+1. Prototipar los siguientes ejemplos.
 
-   > ejemplo
-   > ![ejemplo-1](./assets/example.gif)
+   > ejemplos
+   > ![ejemplos](./assets/example.gif)
 
-2. En otra rama prototipar con diseño libre otro ejemplo.
+2. Usar fuentes externas
+
+3. Usar gradientes diferentes
 
 # Recordatorios
 
