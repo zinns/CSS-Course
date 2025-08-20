@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 body {
   align-items: flex-start;
   background-color: #0d0221;
@@ -100,4 +102,12 @@ body {
   height: 56px;
   margin-top: 4rem;
   width: 100%;
+}
+
+.git-content {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  padding: 8px 32px;
 }
