@@ -107,14 +107,23 @@ body {
   background: linear-gradient(90deg, #85ffca 0%, #a8b1ff 50%, #ec9eff 100%);
 }
 
-.git-content {
+.indentation {
   color: white;
+  padding: 8px 32px;
+}
+
+.git-content {
   font-family: 'Open Sans', sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-  padding: 8px 32px;
 }
 
 .line-2 {
   background: linear-gradient(90deg, #60efff, #0d00ff);
+}
+
+.html-content {
+  font-family: 'Dancing Script', cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
