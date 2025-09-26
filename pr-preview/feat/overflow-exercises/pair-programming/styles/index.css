@@ -1,3 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 body {
+  align-items: flex-start;
+  background-color: #0d0221;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
   margin: 0;
+  padding: 2rem 0;
+}
+
+#click-button {
+  animation: click-me 5s linear 0s infinite normal backwards;
+  background-color: #425161;
+  border-radius: 10px;
+  border-style: none;
+  color: white;
+  height: 50px;
+  width: 100px;
+}
+
+@keyframes click-me {
+  to {
+    transform: translate(30vw);
+  }
+}
+
+@keyframes vanish-move {
+  from {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  to {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+}
+
+#push-button {
+  animation: vanish-move 5s linear infinite;
+  background-color: skyblue;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+@keyframes vanish-move {
+  from {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  to {
+    opacity: 0;
+    transform: translateX(25vw);
+  }
+}
+
+#haz-click {
+  animation: scale-click 4s normal infinite backwards;
+  background-color: #ef4228;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  height: 60px;
+  transform: scale(1.2);
+  width: 175px;
+}
+
+@keyframes scale-click {
+  to {
+    transform: scale(0.7) translate(60vw);
+  }
+}
+
+.push-here {
+  animation: smart-rotate 5s linear infinite;
+  background-color: steelblue;
+  border: none;
+  border-radius: 0.5rem;
+  color: white;
+  padding: 1.5rem 3rem;
+}
+
+@keyframes smart-rotate {
+  from {
+    transform: translate(-100%) rotate(-360deg);
+  }
+
+  to {
+    transform: translateX(25vw);
+  }
+}
+
+.divider {
+  border: none;
+  height: 56px;
+  margin-top: 4rem;
+  width: 100%;
+}
+
+line-1 {
+  background: linear-gradient(90deg, #85ffca 0%, #a8b1ff 50%, #ec9eff 100%);
+}
+
+.indentation {
+  color: white;
+  padding: 8px 32px;
+}
+
+.git-content {
+  font-family: 'Open Sans', sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.line-2 {
+  background: linear-gradient(90deg, #60efff, #0d00ff);
+}
+
+.html-content {
+  font-family: 'Dancing Script', cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
