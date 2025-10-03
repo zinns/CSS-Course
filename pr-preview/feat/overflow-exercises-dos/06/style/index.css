@@ -1,0 +1,23 @@
+h1 {
+  color: yellowgreen;
+}
+
+div {
+  background-color: springgreen;
+  border: 10px solid rebeccapurple;
+  color: black;
+  margin: 30px 45%;
+  padding: 50px;
+  width: 60px;
+}
+
+nav > p {
+  background-color: silver;
+  border: solid black 3px;
+  color: slateblue;
+  font-size: x-large;
+  font-style: oblique;
+  font-weight: bolder;
+  margin: 30px 200px;
+  padding: 30px 20px;
+}

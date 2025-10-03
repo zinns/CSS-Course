@@ -1,0 +1,38 @@
+.exercises {
+  display: flex;
+  justify-content: center;
+}
+
+.section-1 {
+  background-image: linear-gradient(to right, cornflowerblue, skyblue);
+  display: flex;
+  height: 100px;
+  overflow-x: scroll;
+  width: 360px;
+}
+
+.user-photo {
+  border-radius: 200px;
+  height: 50px;
+  width: 50px;
+}
+
+span {
+  color: lab(0% 0 0);
+  display: flex;
+  font-size: small;
+  justify-content: center;
+}
+
+.badge {
+  padding: 8px;
+}
+
+.section-2 {
+  background-image: linear-gradient(to right, #64ed6b, skyblue);
+  display: flex;
+  flex-direction: row-reverse;
+  height: 100px;
+  overflow-x: visible;
+  width: 360px;
+}
