@@ -6,10 +6,10 @@
 
 # Instructions
 
-1. Prototype the next example.
+1. Prototype the next examples.
 
-   > example
-   > ![example](assets/example.gif)
+   > examples
+   > ![examples](assets/examples.gif)
 
 ## Reminders
 
@@ -21,10 +21,10 @@
 
 ## Instrucciones
 
-1. Prototipar el siguiente ejemplo.
+1. Prototipar los siguientes siguiente ejemplos.
 
-   > ejemplo
-   > ![ejemplo](assets/example.gif)
+   > ejemplos
+   > ![ejemplos](assets/examples.gif)
 
 # Recordatorios
 
