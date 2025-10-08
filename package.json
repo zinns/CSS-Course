@@ -1,10 +1,5 @@
 {
   "author": "zinns.io",
-  "babel": {
-    "presets": [
-      "@babel/preset-env"
-    ]
-  },
   "bugs": {
     "url": "https://github.com/zinns/training-template/issues"
   },
@@ -24,7 +19,7 @@
   },
   "engines": {
     "npm": ">= 10",
-    "yarn": ">= 1.19",
+    "yarn": ">= 4.10.3",
     "node": ">=22.20.0"
   },
   "homepage": "https://github.com/zinns/training-template#readme",
@@ -37,7 +32,7 @@
   "scripts": {
     "build:preview": "node build-preview.mjs",
     "fix:format": "prettier --write .",
-    "fix:style": "npx stylelint **/*.css --fix",
+    "fix:css": "npx stylelint **/*.css --fix",
     "prepare": "husky",
     "validate:css": "npx stylelint **/*.{css,scss} --aei",
     "validate:format": "npx prettier --check ."
