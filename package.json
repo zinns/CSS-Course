@@ -43,6 +43,6 @@
     "validate:css": "npx stylelint **/*.{css,scss} --aei",
     "validate:format": "npx prettier --check ."
   },
-  "version": "0.5.0",
+  "version": "0.5.1",
   "packageManager": "yarn@4.10.3"
 }
