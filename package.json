@@ -38,6 +38,6 @@
     "validate:css": "stylelint **/*.{css,scss} --aei",
     "validate:format": "prettier --check ."
   },
-  "version": "0.5.1",
+  "version": "0.5.2",
   "packageManager": "yarn@1.22.19"
 }
