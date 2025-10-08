@@ -32,10 +32,10 @@
   "scripts": {
     "build:preview": "node build-preview.mjs",
     "fix:format": "prettier --write .",
-    "fix:css": "npx stylelint **/*.css --fix",
+    "fix:css": "stylelint **/*.css --fix",
     "prepare": "husky",
-    "validate:css": "npx stylelint **/*.{css,scss} --aei",
-    "validate:format": "npx prettier --check ."
+    "validate:css": "stylelint **/*.{css,scss} --aei",
+    "validate:format": "prettier --check ."
   },
   "version": "0.5.1",
   "packageManager": "yarn@4.10.3"
