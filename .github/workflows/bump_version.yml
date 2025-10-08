@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - name: 'Checkout source code'
-        uses: actions/checkout@v4.1.1
+        uses: actions/checkout@v4
         with:
           ref: ${{ github.ref }}
           token: ${{ vars.GH_TOKEN }}
@@ -26,11 +26,13 @@ jobs:
 
         env:
           GITHUB_TOKEN: ${{ vars.GH_TOKEN }}
+
         with:
           minor-wording: 'MINOR'
           major-wording: 'MAJOR'
           patch-wording: 'PATCH'
           rc-wording: 'RELEASE'
           tag-prefix: 'v'
+
       - name: 'cat package.json'
         run: cat ./package.json

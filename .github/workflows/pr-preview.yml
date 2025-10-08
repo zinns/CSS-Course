@@ -2,19 +2,22 @@ name: Deploy Preview
 
 on:
   pull_request:
-    branches: 'develop-*'
+    branches: ['develop-*']
 
 jobs:
   deploy-preview:
     name: Deploy Preview
     runs-on: ubuntu-latest
+    permissions:
+      id-token: write
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
+      - run: npm install -g corepack && corepack enable
       - name: Setup Pages directory
         run: |
-          npm i
-          npm run build:preview
+          yarn
+          yarn build:preview
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
