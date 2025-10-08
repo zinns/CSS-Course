@@ -28,7 +28,6 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '>=22.20'
-      - run: npm install -g corepack && corepack enable
 
       - name: Print versions
         run: |
@@ -38,5 +37,5 @@ jobs:
 
       - name: Run Stylelint
         run: |
-          yarn
-          yarn validate:css
+          npm i
+          npm run validate:css
