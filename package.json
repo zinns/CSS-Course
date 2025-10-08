@@ -44,5 +44,5 @@
     "validate:format": "npx prettier --check ."
   },
   "version": "0.5.0",
-  "packageManager": "yarn@1.22.22"
+  "packageManager": "yarn@4.10.3"
 }
