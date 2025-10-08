@@ -17,16 +17,17 @@
     "eslint-plugin-hooks": "0.4.3",
     "eslint-plugin-prettier": "5.2.5",
     "husky": "9.1.7",
-    "postcss": "8.5.3",
-    "prettier": "3.5.3",
-    "stylelint": "16.17.0",
-    "stylelint-config-standard-scss": "14.0.0",
-    "stylelint-order": "6.0.4"
+    "postcss-scss": "^4.0.9",
+    "postcss-styled-syntax": "^0.7.1",
+    "prettier": "3.6.2",
+    "stylelint": "16.25.0",
+    "stylelint-config-standard": "39.0.1",
+    "stylelint-config-standard-scss": "16.0.0"
   },
   "engines": {
     "npm": ">= 10",
     "yarn": ">= 1.19",
-    "node": ">=20.18.1"
+    "node": ">=22.20.0"
   },
   "homepage": "https://github.com/zinns/training-template#readme",
   "license": "ISC",
