@@ -1,10 +1,5 @@
 {
   "author": "zinns.io",
-  "babel": {
-    "presets": [
-      "@babel/preset-env"
-    ]
-  },
   "bugs": {
     "url": "https://github.com/zinns/training-template/issues"
   },
@@ -17,16 +12,16 @@
     "eslint-plugin-hooks": "0.4.3",
     "eslint-plugin-prettier": "5.2.5",
     "husky": "9.1.7",
-    "postcss": "8.5.3",
-    "prettier": "3.5.3",
-    "stylelint": "16.17.0",
-    "stylelint-config-standard-scss": "14.0.0",
-    "stylelint-order": "6.0.4"
+    "prettier": "3.6.2",
+    "stylelint": "16.25.0",
+    "stylelint-config-standard": "39.0.1",
+    "stylelint-config-standard-scss": "16.0.0",
+    "stylelint-order": "^7.0.0"
   },
   "engines": {
     "npm": ">= 10",
-    "yarn": ">= 1.19",
-    "node": ">=20.18.1"
+    "yarn": ">= 1.22.19",
+    "node": ">=22.20.0"
   },
   "homepage": "https://github.com/zinns/training-template#readme",
   "license": "ISC",
@@ -38,10 +33,11 @@
   "scripts": {
     "build:preview": "node build-preview.mjs",
     "fix:format": "prettier --write .",
-    "fix:style": "npx stylelint **/*.css --fix",
+    "fix:css": "stylelint **/*.css --fix",
     "prepare": "husky",
-    "validate": "npx prettier --check . && npx eslint **/*.{js,ts,jsx,tsx,mjs} --no-error-on-unmatched-pattern && npx stylelint **/*.{css,scss} --aei"
+    "validate:css": "stylelint **/*.{css,scss} --aei",
+    "validate:format": "prettier --check ."
   },
-  "version": "0.4.8",
-  "packageManager": "yarn@1.22.22"
+  "version": "0.5.2",
+  "packageManager": "yarn@1.22.19"
 }

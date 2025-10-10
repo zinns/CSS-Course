@@ -1,4 +1,4 @@
-name: CI-Prettier
+name: CI-Stylelint
 
 # Controls when the workflow will run
 on:
@@ -9,10 +9,12 @@ on:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
-  prettier:
-    name: Validate Prettier
+  stylelint:
+    name: Validate Stylelint
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
+    permissions:
+      id-token: write
 
     if: ${{!contains(github.event.commits[0].message, 'PATCH') || !contains(github.event.commits[0].message, 'MINOR') || !contains(github.event.commits[0].message, 'MAJOR') || !contains(github.event.commits[0].message, 'RELEASE')}}
 
@@ -25,13 +27,15 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: '>=20.18.1'
+          node-version: '>=22.20'
+
       - name: Print versions
         run: |
           git --version
           node --version
           npm --version
-      - name: Run Prettier and ESLint
+
+      - name: Run Stylelint
         run: |
           npm i
-          npm run validate
+          npm run validate:css
